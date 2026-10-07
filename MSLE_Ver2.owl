@@ -16,6 +16,10 @@
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Import>http://www.w3.org/ns/ssn/</Import>
     <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <IRI>https://opensource.org/licenses/MIT</IRI>
+    </Annotation>
+    <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MSLE</Literal>
     </Annotation>
@@ -27,6 +31,9 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MSLE</Literal>
     </Annotation>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#E-Beam_LAB6_TE"/>
     </Declaration>
