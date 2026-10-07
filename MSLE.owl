@@ -7,6 +7,7 @@
 @base <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLE> .
 
 <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLE> rdf:type owl:Ontology ;
+                                                            <http://purl.org/dc/terms/license> <https://opensource.org/licenses/MIT> ;
                                                             rdfs:comment "The current ontology describes Material Science Lab Equipment"^^rdfs:Literal ;
                                                             rdfs:label "MSLE"^^rdfs:Literal ;
                                                             owl:versionInfo "1.1"^^rdfs:Literal .
@@ -14,6 +15,8 @@
 #################################################################
 #    Annotation properties
 #################################################################
+
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 ###  http://schema.org/image
 <http://schema.org/image> rdf:type owl:AnnotationProperty .
